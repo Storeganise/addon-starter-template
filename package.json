@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "TZ=UTC mocha *.test.js && eslint ."
+  },
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "express": "^4.x"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "mocha": "^10.7.3",
+    "sinon": "^18.0.0"
+  }
+}
